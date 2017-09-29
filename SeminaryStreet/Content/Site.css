@@ -1,0 +1,244 @@
+﻿body {
+	font-family: 'Open Sans', sans-serif;
+    padding-top: 90px;
+}
+
+h1, h2, h3, h4, h5, h6, p, ul, ol, small {
+    font-family: "courier-prime",courier;
+}
+
+h5, h6 {
+    font-weight: bold;
+}
+
+.container-fluid {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+}
+
+/* navbar */
+.navbar-default {
+    background-color: transparent;
+    border-color: transparent;
+    border: 0;
+}
+a.menu-logo {
+    width: 40px;
+    height: 40px;
+    background: url("Images/logo.png") no-repeat center center;
+}
+
+
+/* title */
+.navbar-default .navbar-brand {
+    color: #fff;
+}
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus {
+    color: #5E5E5E;
+}
+/* link */
+.navbar-default .navbar-nav > li > a {
+    color: #fff;
+    font-size: 14px;
+    letter-spacing: 5px;
+}
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+    color: #fff;
+    text-decoration: underline;
+}
+.navbar-default .navbar-nav > .active > a, 
+.navbar-default .navbar-nav > .active > a:hover, 
+.navbar-default .navbar-nav > .active > a:focus {
+    color: #fff;
+    background-color: transparent;
+
+}
+.navbar-default .navbar-nav > .open > a, 
+.navbar-default .navbar-nav > .open > a:hover, 
+.navbar-default .navbar-nav > .open > a:focus {
+    color: #fff;
+}
+/* caret */
+.navbar-default .navbar-nav > .dropdown > a .caret {
+    border-top-color: #777;
+    border-bottom-color: #777;
+}
+.navbar-default .navbar-nav > .dropdown > a:hover .caret,
+.navbar-default .navbar-nav > .dropdown > a:focus .caret {
+    border-top-color: #333;
+    border-bottom-color: #333;
+}
+.navbar-default .navbar-nav > .open > a .caret, 
+.navbar-default .navbar-nav > .open > a:hover .caret, 
+.navbar-default .navbar-nav > .open > a:focus .caret {
+    border-top-color: #555;
+    border-bottom-color: #555;
+}
+/* mobile version */
+.navbar-default .navbar-toggle {
+    border-color: #DDD;
+}
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus {
+    background-color: #DDD;
+}
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #CCC;
+}
+@media (max-width: 767px) {
+    .navbar-default .navbar-nav .open .dropdown-menu > li > a {
+        color: #fff;
+    }
+
+    .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover,
+    .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
+        color: #fff;
+        text-decoration: underline;
+    }
+}
+
+.na {
+    display: inline-block;
+}
+
+
+.navbar-fixed-top {
+	padding-top: 15px;
+    background-color: #0B2900;
+    width: 100%;
+    height: 90px;
+    text-align: center;
+}
+
+.back { 
+    width: 100%;
+    min-height: 560px;
+    max-height: 660px;
+    position: relative;
+    background-size: cover;
+
+}
+
+#fullBack {
+    background: url("Images/fullBack.jpg") no-repeat center center;
+}
+
+
+#aboutBack {
+    background: url("Images/about.jpg") no-repeat center center;
+}
+
+#loftsBack {
+    background: url("Images/about.jpg") no-repeat center center;
+}
+
+.fullInner {
+    text-align: center;
+    top: auto;
+    bottom: 80px;
+    color: white;
+    font-family: "courier-prime",courier;
+    font-size: 30px;   
+    position: absolute;
+    width: 100%;
+}
+.indexSec1 {
+    background-color: #7a8036;
+    color: #fff;
+    padding: 20px;
+    width: 100%;
+
+}
+
+.indexSec2, .light {
+    background-color: #ccccd6;
+    color: #000;
+    padding: 20px;
+    width: 100%;
+}
+
+.extraTop20 {
+    margin-top: 20px;
+}
+
+
+.loft-thumbs .img-responsive {
+    margin: 0 auto;
+    margin-bottom: 30px;
+}
+
+
+/* carousel */
+/* Makes images fully responsive */
+
+.img-responsive,
+.thumbnail > img,
+.thumbnail a > img,
+.carousel-inner > .item > img,
+.carousel-inner > .item > a > img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+/* ------------------- Carousel Styling ------------------- */
+
+.carousel-inner {
+  border-radius: 15px;
+}
+
+.carousel-caption {
+  background-color: rgba(0,0,0,.5);
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 10;
+  padding: 0 0 10px 25px;
+  color: #fff;
+  text-align: left;
+}
+
+.carousel-indicators {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  width: 100%;
+  z-index: 15;
+  margin: 0;
+  padding: 0 25px 25px 0;
+  text-align: right;
+}
+
+.carousel-control.left,
+.carousel-control.right {
+  background-image: none;
+}
+
+/* pills & tabs */
+.nav-tabs > li, .nav-pills > li {
+    float:none;
+    display:inline-block;
+    *display:inline; /* ie7 fix */
+     zoom:1; /* hasLayout ie7 trigger */
+}
+
+.nav-tabs, .nav-pills {
+    text-align:center;
+}
+
+/* numbered list */
+.list-group {
+    list-style: decimal inside;
+}
+
+.list-group-item {
+    display: list-item;
+}
+
+.text-indent {
+    text-indent: 1.5em;
+}
